@@ -1,0 +1,77 @@
+div {
+  position: absolute;
+}
+
+.maket-img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.wheel {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  bottom: 185px;
+  right: 550px;
+  padding-left: 150px;
+  -webkit-animation-name: wheel-animated;
+          animation-name: wheel-animated;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.wheel2 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  bottom: 185px;
+  right: 550px;
+  padding-left: 140px;
+  -webkit-animation-name: wheel2;
+          animation-name: wheel2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes wheel2 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes wheel2 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes wheel-animated {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wheel-animated {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */

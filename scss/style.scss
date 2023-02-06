@@ -1,0 +1,52 @@
+div{
+    position: absolute;
+}
+.maket-img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    
+}
+
+.wheel{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 185px;
+    right: 550px;
+    padding-left: 150px;
+    animation-name: wheel-animated;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+
+.wheel2{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 185px;
+    right: 550px;
+    padding-left: 140px;
+    animation-name: wheel2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel2{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes wheel-animated{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
